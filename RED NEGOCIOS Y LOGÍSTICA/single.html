@@ -24,6 +24,12 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+
+    <!-- Customized whatsapp Stylesheet -->
+    <link href="css/whatsapp.css" rel="stylesheet">
 </head>
 
 <body>
@@ -60,32 +66,38 @@
     </div>
     <!-- Topbar End -->
 
-
+    <!-- Boton whatsapp  Start -->
+    <div class="container-boton">
+        <a href="https://api.whatsapp.com/send?phone=5191277606">
+            <i class="bi bi-whatsapp boton"></i>
+        </a>
+    </div>
+    
     <!-- Navbar Start -->
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class="m-0 display-5 text-uppercase text-primary"><i class="fa fa-truck mr-2"></i>Faster</h1>
+                <img class="img-fluid w-100" src="img/logo-empr.png" alt="">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="price.html" class="nav-item nav-link">Price</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
+                    <a href="index.html" class="nav-item nav-link ">Inicio</a>
+                    <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
+                    <a href="service.html" class="nav-item nav-link">Servicios</a>
+                    <a href="price.html" class="nav-item nav-link">Precio</a>
+                    <div class="nav-item dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Blog</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                            <a href="blog.html" class="dropdown-item ">Blog Grid</a>
                             <a href="single.html" class="dropdown-item active">Blog Detail</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
                 </div>
-                <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Get A Quote</a>
+                <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block"></a>
             </div>
         </nav>
     </div>
@@ -95,12 +107,8 @@
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid mb-5">
         <div class="container text-center py-5">
-            <h1 class="text-white display-3">Blog Detail</h1>
-            <div class="d-inline-flex align-items-center text-white">
-                <p class="m-0"><a class="text-white" href="">Home</a></p>
-                <i class="fa fa-circle px-3"></i>
-                <p class="m-0">Blog Detail</p>
-            </div>
+            <h1 class="text-white display-3">Blog Detallado</h1>
+            
         </div>
     </div>
     <!-- Header End -->
@@ -390,41 +398,40 @@
             <div class="col-lg-7 col-md-6">
                 <div class="row">
                     <div class="col-md-6 mb-5">
-                        <h3 class="text-primary mb-4">Get In Touch</h3>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                        <h3 class="text-primary mb-4">Ubícanos</h3>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>Av. Giraldez 308 of. 200-A (2do piso) HUANCAYO-JUNIN</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+51 964 439 929</p>
+                        <p><i class="fa fa-envelope mr-2"></i>operaciones@redlogistica.pe</p>
                         <div class="d-flex justify-content-start mt-4">
-                            <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social mr-2" href="#"><i
+                            <a class="btn btn-outline-light btn-social mr-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social mr-2" href="https://www.facebook.com/rednegociosylogistica/"><i
                                     class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social mr-2" href="#"><i
+                            <a class="btn btn-outline-light btn-social mr-2" href="https://www.linkedin.com/company/red-negocios-y-log%C3%ADstica/?originalSubdomain=pe"><i
                                     class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/rednegociosylogistica?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6 mb-5">
-                        <h3 class="text-primary mb-4">Quick Links</h3>
+                        <h3 class="text-primary mb-4">Links</h3>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Pricing Plan</a>
-                            <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>sobre nosotros</a>
+                            <a class="text-white mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Nuestros Servicios</a>
+                            <a class="text-white mb-2" href="price.html"><i class="fa fa-angle-right mr-2"></i>Plan Servicios</a>
+                            <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contáctanos</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Newsletter</h3>
-                <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu
-                    kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
+                <h3 class="text-primary mb-4">Boletin informativo</h3>
+                <p> Ingrese su dirección de correo electrónico para que podamos enviarle información adicional y mantenerle actualizado con las últimas novedades.</p>
                 <div class="w-100">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 30px;"
-                            placeholder="Your Email Address">
+                            placeholder="Ingrese su dirección de correo electrónico">
                         <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Sign Up</button>
+                            <button class="btn btn-primary px-4">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -435,10 +442,7 @@
         style="border-color: #3E3E4E !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a href="#">Your Site Name</a>. All Rights Reserved.
-
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed by <a href="https://htmlcodex.com">HTML Codex</a>
+                <p class="m-0 text-white">&copy; <a href="index.html">redlogistica</a>. todos los derechos reservados.
                 </p>
             </div>
             <div class="col-lg-6 text-center text-md-right">

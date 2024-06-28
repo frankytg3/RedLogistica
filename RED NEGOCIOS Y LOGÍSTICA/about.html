@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -24,6 +24,12 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+
+    <!-- Customized whatsapp Stylesheet -->
+    <link href="css/whatsapp.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,7 +38,7 @@
         <div class="row py-2 px-lg-5">
             <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center text-white">
-                    <small><i class="fa fa-phone-alt mr-2"></i>11616161</small>
+                    <small><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</small>
                     <small class="px-3">|</small>
                     <small><i class="fa fa-envelope mr-2"></i>info@gmail.com</small>
                 </div>
@@ -60,37 +66,43 @@
     </div>
     <!-- Topbar End -->
 
+    <!-- Boton whatsapp  Start -->
+    <div class="container-boton">
+        <a href="https://api.whatsapp.com/send?phone=5191277606">
+            <i class="bi bi-whatsapp boton"></i>
+        </a>
+    </div>
+    <!-- Topbar End -->
 
-    <!-- Navbar Start -->
+    <!-- whatsapp Start -->
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class="m-0 display-5 text-uppercase text-primary"><i class="fa fa-truck mr-2"></i>Faster</h1>
+                <img class="img-fluid w-100" src="img/logo-empr.png" alt="">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="index.html" class="nav-item nav-link ">Inicio</a>
                     <a href="about.html" class="nav-item nav-link active">Sobre nosotros</a>
                     <a href="service.html" class="nav-item nav-link">Servicios</a>
-                    <a href="price.html" class="nav-item nav-link">Empresa</a>
+                    <a href="price.html" class="nav-item nav-link">Precio</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Apartados</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="blog.html" class="dropdown-item">Trabajos Locales</a>
-                            <a href="single.html" class="dropdown-item">Trabajos Nacionales</a>
+                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                            <a href="single.html" class="dropdown-item">Blog Detail</a>
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
                 </div>
-
+                <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block"></a>
             </div>
         </nav>
     </div>
     <!-- Navbar End -->
-
 
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid mb-5">
@@ -130,22 +142,22 @@
                     <img class="img-fluid w-100" src="img/feature.jpg" alt="">
                 </div>
                 <div class="col-lg-7 py-5 py-lg-0">
-                    <h6 class="text-primary text-uppercase font-weight-bold">Why Choose Us</h6>
-                    <h1 class="mb-4">Faster, Safe and Trusted Logistics Services</h1>
+                    <h6 class="text-primary text-uppercase font-weight-bold">POR QUÉ ELEGIRNOS</h6>
+                    <h1 class="mb-4">Servicios logísticos más rápidos, seguros y confiables</h1>
                     <p class="mb-4">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum
                         labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos
                         et erat sed diam duo</p>
                     <ul class="list-inline">
                         <li>
-                            <h6><i class="far fa-dot-circle text-primary mr-3"></i>Best In Industry</h6>
+                            <h6><i class="far fa-dot-circle text-primary mr-3"></i>Mejor en la industria</h6>
                         <li>
-                            <h6><i class="far fa-dot-circle text-primary mr-3"></i>Emergency Services</h6>
+                            <h6><i class="far fa-dot-circle text-primary mr-3"></i>Servicios de emergencia</h6>
                         </li>
                         <li>
-                            <h6><i class="far fa-dot-circle text-primary mr-3"></i>24/7 Customer Support</h6>
+                            <h6><i class="far fa-dot-circle text-primary mr-3"></i>Atención al cliente 24 horas al día, 7 días a la semana</h6>
                         </li>
                     </ul>
-                    <a href="" class="btn btn-primary mt-3 py-2 px-4">Learn More</a>
+                    <a href="service.html" class="btn btn-primary mt-3 py-2 px-4">Saber más</a>
                 </div>
             </div>
         </div>
@@ -157,8 +169,8 @@
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="text-center pb-2">
-                <h6 class="text-primary text-uppercase font-weight-bold">Delivery Team</h6>
-                <h1 class="mb-4">Meet Our Delivery Team</h1>
+                <h6 class="text-primary text-uppercase font-weight-bold">EQUIPO DE ENTREGA</h6>
+                <h1 class="mb-4">Conozca a nuestro equipo de entrega</h1>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6">
@@ -166,8 +178,8 @@
                         <img class="card-img-top" src="img/team-1.jpg" alt="">
                         <div class="card-body text-center p-0">
                             <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <span>Designation</span>
+                                <h5 class="font-weight-bold">Operador 1</h5>
+                                <span>Activo</span>
                             </div>
                             <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-outline-dark btn-social mr-2" href="#"><i
@@ -186,8 +198,8 @@
                         <img class="card-img-top" src="img/team-2.jpg" alt="">
                         <div class="card-body text-center p-0">
                             <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <span>Designation</span>
+                                <h5 class="font-weight-bold">Operador 2</h5>
+                                <span>Activo</span>
                             </div>
                             <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-outline-dark btn-social mr-2" href="#"><i
@@ -206,8 +218,8 @@
                         <img class="card-img-top" src="img/team-3.jpg" alt="">
                         <div class="card-body text-center p-0">
                             <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <span>Designation</span>
+                                <h5 class="font-weight-bold">Operador 3</h5>
+                                <span>Activo</span>
                             </div>
                             <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-outline-dark btn-social mr-2" href="#"><i
@@ -226,8 +238,8 @@
                         <img class="card-img-top" src="img/team-4.jpg" alt="">
                         <div class="card-body text-center p-0">
                             <div class="team-text d-flex flex-column justify-content-center bg-secondary">
-                                <h5 class="font-weight-bold">Full Name</h5>
-                                <span>Designation</span>
+                                <h5 class="font-weight-bold">Operador 4</h5>
+                                <span>Activo</span>
                             </div>
                             <div class="team-social d-flex align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-outline-dark btn-social mr-2" href="#"><i
@@ -253,41 +265,40 @@
             <div class="col-lg-7 col-md-6">
                 <div class="row">
                     <div class="col-md-6 mb-5">
-                        <h3 class="text-primary mb-4">Get In Touch</h3>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                        <h3 class="text-primary mb-4">Ubícanos</h3>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>Av. Giraldez 308 of. 200-A (2do piso) HUANCAYO-JUNIN</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+51 964 439 929</p>
+                        <p><i class="fa fa-envelope mr-2"></i>operaciones@redlogistica.pe</p>
                         <div class="d-flex justify-content-start mt-4">
-                            <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social mr-2" href="#"><i
+                            <a class="btn btn-outline-light btn-social mr-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social mr-2" href="https://www.facebook.com/rednegociosylogistica/"><i
                                     class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social mr-2" href="#"><i
+                            <a class="btn btn-outline-light btn-social mr-2" href="https://www.linkedin.com/company/red-negocios-y-log%C3%ADstica/?originalSubdomain=pe"><i
                                     class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/rednegociosylogistica?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6 mb-5">
-                        <h3 class="text-primary mb-4">Quick Links</h3>
+                        <h3 class="text-primary mb-4">Links</h3>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Pricing Plan</a>
-                            <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>sobre nosotros</a>
+                            <a class="text-white mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Nuestros Servicios</a>
+                            <a class="text-white mb-2" href="price.html"><i class="fa fa-angle-right mr-2"></i>Plan Servicios</a>
+                            <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contáctanos</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Newsletter</h3>
-                <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu
-                    kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
+                <h3 class="text-primary mb-4">Boletin informativo</h3>
+                <p> Ingrese su dirección de correo electrónico para que podamos enviarle información adicional y mantenerle actualizado con las últimas novedades.</p>
                 <div class="w-100">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 30px;"
-                            placeholder="Your Email Address">
+                            placeholder="Ingrese su dirección de correo electrónico">
                         <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Sign Up</button>
+                            <button class="btn btn-primary px-4">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -298,10 +309,7 @@
         style="border-color: #3E3E4E !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a href="#">Your Site Name</a>. All Rights Reserved.
-
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed by <a href="https://htmlcodex.com">HTML Codex</a>
+                <p class="m-0 text-white">&copy; <a href="index.html">redlogistica</a>. todos los derechos reservados.
                 </p>
             </div>
             <div class="col-lg-6 text-center text-md-right">
